@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variable file
+.env
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Uploads (optional - if not needed in Git)
+uploads/
+
+# IDE & editor folders
+.vscode/
+.idea/
+
+# Postman temp
+.postman/
+
+# TypeScript build cache (if any)
+*.tsbuildinfo
