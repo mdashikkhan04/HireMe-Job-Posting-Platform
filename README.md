@@ -147,13 +147,27 @@ npm run dev
 
 ## 🧪 Postman Collection
 
-✅ `HireMe.postman_collection.json` — ready to import.
+✅ `HireMe.postman_collection.json` — located in the root of the project.
+
+🔹 You can import it directly into Postman using:
+1. Open Postman
+2. Click **Import** > Upload `HireMe.postman_collection.json`
+3. Set `{{base_url}}` to `http://localhost:5000` or your deployed URL
+4. Set tokens like `{{admin_token}}`, `{{seeker_token}}`, `{{employee_token}}` in your environment
 
 ---
 
 ## 🧾 ERD (Entity Relationship Diagram)
 
-✅ `HireMe_ERD.pdf` — included in repo
+✅ `HireMe_ERD.pdf` — located in the root directory of the repository.
+
+📌 This PDF illustrates the database structure and relationships between:
+- Users (ADMIN, EMPLOYEE, JOB_SEEKER)
+- Jobs
+- Applications
+- Invoices
+
+It clearly shows **1:N** and **1:1** mappings for entity relationships.
 
 ### Entities:
 
